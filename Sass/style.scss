@@ -3,7 +3,7 @@ $primary_color--dark: #808080;
 $alarm_color: #f80000;    
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,700&display=swap'); 
 @font-face{
-    font-family: "digital";
+    font-family: "Digital 7";
     src: url("/Assets/digital-7.ttf") format('truetype');
 }
 *,*::after,*::before{
@@ -43,7 +43,7 @@ margin-right: auto;
         background-color: black;
         color: $alarm_color;
         padding: 0.5rem;
-        font-family: 'digital';
+        font-family: 'Digital 7';
         font-size: 3.2rem;
         min-width: 8rem;
         display: flex;
