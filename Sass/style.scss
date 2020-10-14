@@ -3,8 +3,8 @@ $primary_color--dark: #808080;
 $alarm_color: #f80000;    
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,700&display=swap'); 
 @font-face{
-    font-family: 'digital';
-    src: url(/Assets/digital-7.ttf) format('truetype');
+    font-family: "digital";
+    src: url("/Assets/digital-7.ttf") format('truetype');
 }
 *,*::after,*::before{
     margin: 0;
@@ -171,7 +171,7 @@ display: flex;
     }
 
 .modal--hiden{
-visibility: hidden;
+    visibility: hidden;
 }
 .border{
 border:.3rem solid
