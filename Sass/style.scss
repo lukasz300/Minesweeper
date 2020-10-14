@@ -5,7 +5,7 @@ $alarm_color: #f80000;
 @font-face{
     font-family: 'DSDIGI';
 	src: url('/Assets/DSDIGI.eot');
-	src: local('DSDIGI'), url('/Assets/DSDIGI.woff') format('woff'), url('/Assets/DSDIGI.ttf') format('truetype');
+	src: local('DSDIGI'), url('../Assets/DSDIGI.woff') format('woff'), url('../Assets/DSDIGI.ttf') format('truetype');
 }
 *,*::after,*::before{
     margin: 0;
