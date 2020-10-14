@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Minesweeper</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=0.6">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <main class="game">
+            <header class="header border border--convex">
+                <article class="header__counter"data-counter>0</article>
+                <button class="header__reset" data-button-reset><svg class="header__button"><use href="./Assets/sprite.svg#positive" alt=""></svg> </button>         
+                <article class="header__counter" data-timer>0</article>
+            </header>
+                <article class="game__board border border--convex" data-board>
+                                    </article>
+                <article class="game__panel border border--concave">
+                    <h1 class="panel__header">
+                        Select Difficulty
+                    </h1>
+                    <section class="panel__button">
+                            <button class="button" data-button-easy>Easy</button>
+                            <button class="button" data-button-medium>Medium</button>
+                            <button class="button" data-button-hard>Hard</button>
+                    </section>
+                </article>
+                <article class="modal modal--hiden" data-modal>
+                    <section class="modal__content">
+                        <h2 class="modal__text" data-modal-header>You won</h2>
+                        <button class="modal__button" data-modal-button>Play again</button>
+                    </section>
+                </article>
+        </main>    
+        <script src="./Js/game.js" type="module"></script>
+    </body>
+</html>
